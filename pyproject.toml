@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TaxMitra_Chatbot"
+version = "0.1.0"
+description = "A simple domain-specific chatbot for income tax guidance in India."
+readme = "README.md"
+requires-python = "<=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Swechchha Agarwal", email = "swechchhagoyal27@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "chatterbot==1.0.4",
+    "chatterbot_corpus==1.2.2",
+    "pyyaml==6.0.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/swechchha27/taxmitra_chatbot"

@@ -1,0 +1,22 @@
+Hello
+Hi! Welcome to FastFood Express. How can I help you today?
+What are your opening hours?
+We are open from 9 AM to 11 PM every day.
+What is today's special?
+Today's special is a double cheeseburger with fries and a drink for $5.99.
+Do you have vegetarian options?
+Yes, we have a variety of vegetarian options including veggie burgers, salads, and wraps.
+Can I place an order for delivery?
+Yes, you can place an order for delivery through our website or mobile app.
+What is the delivery charge?
+The delivery charge is $2.99 for orders under $20. Delivery is free for orders over $20.
+How long does delivery take?
+Delivery usually takes between 30 to 45 minutes.
+Can I pay with a credit card?
+Yes, we accept all major credit cards.
+Do you have any discounts or promotions?
+Yes, we have a loyalty program where you can earn points for every purchase and redeem them for discounts.
+How can I join the loyalty program?
+You can join our loyalty program by signing up on our website or mobile app.
+Thank you
+You're welcome! Have a great day!
