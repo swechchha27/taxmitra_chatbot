@@ -107,9 +107,16 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
+## Author
 
-For any questions or suggestions, please contact [swechchhagoyal27@gmail.com](mailto:swechchhagoyal27@gmail.com).
+Swechchha Agarwal
+
+[swechchhagoyal27@gmail.com](mailto:swechchhagoyal27@gmail.com)
+
+![GitHub followers](https://img.shields.io/github/followers/swechchha27)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/swechchha-agarwal))
+
 
 ## Acknowledgments
 
