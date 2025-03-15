@@ -1,3 +1,9 @@
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![GitHub contributors](https://img.shields.io/github/contributors/swechchha27/taxmitra_chatbot)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/swechchha27/taxmitra_chatbot/main)
+
+
 # Indian Income Tax Consultant Chatbot
 
 This project creates a simple domain-specific chatbot named 'TaxMitra' that provides basic income tax guidance to Indian citizens.
