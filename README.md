@@ -125,7 +125,10 @@ Swechchha Agarwal
 ![GitHub followers](https://img.shields.io/github/followers/swechchha27)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/swechchha-agarwal))
-[![hackerrank]](https://img.shields.io/badge/hackerrank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)]([https://www.hackerrank.com/](https://www.hackerrank.com/profile/swechchhagoyal27))
+
+![Static Badge](https://img.shields.io/badge/HackerRank-swechchha?style=for-the-badge&logo=hackerrank&logoColor=black&color=%2300EA64&link=https%3A%2F%2Fwww.hackerrank.com%2Fprofile%2Fswechchhagoyal27)
+
+
 
 ## Acknowledgments
 
