@@ -31,7 +31,11 @@ jobs:
         pip install -r requirements.txt
 
     - name: Set environment variables
-      run: echo "ENV=test" >> $GITHUB_ENV
+      run: |
+        echo "ENV=test" >> $GITHUB_ENV
+        echo "BOT_NAME=TaxMitra" >> $GITHUB_ENV
+        echo "TEST_DATABASE_URL=sqlite:///tests/test_db.sqlite3" >> $GITHUB_ENV
+        echo "TEST_TRAINING_FILE=data/test_training_data.txt" >> $GITHUB_ENV
   
     - name: Run tests
       env:
