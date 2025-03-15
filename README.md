@@ -3,6 +3,9 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/swechchha27/taxmitra_chatbot)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/swechchha27/taxmitra_chatbot/main)
 
+![CodeFactor Grade (with branch)](https://img.shields.io/codefactor/grade/github/swechchha27/taxmitra_chatbot/main)
+[![Lint Python Code using Pylint](https://github.com/swechchha27/taxmitra_chatbot/actions/workflows/pylint.yml/badge.svg)](https://github.com/swechchha27/taxmitra_chatbot/actions/workflows/pylint.yml)
+[![Run tests using unittest](https://github.com/swechchha27/taxmitra_chatbot/actions/workflows/unittest.yml/badge.svg)](https://github.com/swechchha27/taxmitra_chatbot/actions/workflows/unittest.yml)
 
 # Indian Income Tax Consultant Chatbot
 
