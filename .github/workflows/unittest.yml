@@ -9,7 +9,7 @@ on:
 
 jobs:
   testing:
-    runs-on: ubuntu-22.04
+    runs-on: windows-latest
     strategy:
       matrix:
         python-version: ["3.7.7", "3.7.8", "3.7.10", "3.7.11"]
