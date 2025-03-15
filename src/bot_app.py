@@ -15,9 +15,9 @@ class ChatBotApp:
     """
     A chatbot that provides basic guidance on Indian income tax matters.
     """
-    def __init__(self, 
-                 name="TaxMitra", 
-                 training_file="../data/training_data.txt", 
+    def __init__(self,
+                 name="TaxMitra",
+                 training_file="../data/training_data.txt",
                  db_uri="sqlite:///./storage/tax_db.sqlite3"):
         """
         Initialize the chatbot with a name and training data.
@@ -48,7 +48,7 @@ class ChatBotApp:
                             The available corpora are listed at:
                             https://chatterbot.readthedocs.io/en/stable/training.html
         """
-        self.corpus_trainer.train(corpus_name)             
+        self.corpus_trainer.train(corpus_name)
 
     def train_with_list(self, conversation_list):
         """

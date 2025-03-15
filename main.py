@@ -5,8 +5,8 @@ The ChatBotApp is trained with paired data from a file and the English corpus.
 It then starts an interactive chat session with the user.
 """
 
-import os
-import json
+# import os
+# import json
 from src.config import SelectedConfig as conf
 from src.bot_app import ChatBotApp
 
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
         # Train the chatbot with data from a file
         bot_app.train_with_paired_datafile()
-        
+
         # Train the chatbot with data from a JSON file
         # with open(TRAINING_FILE, mode="r", encoding="utf-8") as file:
         #     training_data = json.load(file)
@@ -43,6 +43,6 @@ if __name__ == "__main__":
         bot_app.train_with_corpus('chatterbot.corpus.english')
         # Start the chat session to interact with the chatbot
         bot_app.start_chat()
-    except Exception as e:
-        print(f"Error: {e}")
+    except (FileNotFoundError, ImportError) as e:
+        print(f"An error occurred while running the ChatBotApp: {e}")
         print(conf.DATABASE_URI)

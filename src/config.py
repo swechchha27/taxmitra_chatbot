@@ -1,3 +1,19 @@
+"""
+This module provides configuration classes for different environments 
+(development, testing, and production)
+and loads environment variables from a .env file using the `dotenv` package.
+Classes:
+    Config: Base configuration class with default settings.
+    DevelopmentConfig: Configuration class for the development environment.
+    TestingConfig: Configuration class for the testing environment.
+    ProductionConfig: Configuration class for the production environment.
+Attributes:
+    config_by_name (dict): A dictionary mapping environment names ('dev', 'test', 'prod') 
+    to their respective configuration classes.
+    ENV (str): The current environment mode, defaulting to 'prod' if not set 
+               in environment variables.
+    SelectedConfig (Config): The configuration class selected based on the current environment mode.
+"""
 import os
 from dotenv import load_dotenv
 
@@ -9,13 +25,13 @@ class Config:
     BOT_NAME = os.getenv('BOT_NAME', 'TaxMitra')
     DATABASE_URI = os.getenv('DATABASE_URL')
     TRAINING_FILE = os.getenv('TRAINING_FILE')
-    
+
 class DevelopmentConfig(Config):
     """Configuration for development environment."""
     DEBUG = True
     DATABASE_URI = os.getenv('DEV_DATABASE_URL', Config.DATABASE_URI)
     TRAINING_FILE = os.getenv('DEV_TRAINING_FILE', Config.TRAINING_FILE)
-    
+
 class TestingConfig(Config):
     """Configuration for testing environment."""
     TESTING = True
