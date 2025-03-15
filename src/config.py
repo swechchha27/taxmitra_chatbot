@@ -47,7 +47,7 @@ class DevelopmentConfig(Config):
         return super().get_bot_name() + " Dev"
 
     def get_database_uri(self):
-        return super().get_database_uri()
+        return self.DATABASE_URI
 
 class TestingConfig(Config):
     """Configuration for testing environment."""
@@ -59,7 +59,7 @@ class TestingConfig(Config):
         return super().get_bot_name() + " Test"
 
     def get_database_uri(self):
-        return super().get_database_uri()
+        return self.DATABASE_URI
 
 class ProductionConfig(Config):
     """Configuration for production environment."""
@@ -71,7 +71,7 @@ class ProductionConfig(Config):
         return super().get_bot_name() + " Prod"
 
     def get_database_uri(self):
-        return super().get_database_uri()
+        return self.DATABASE_URI
 
 # Dictionary to map environment names to their respective configurations
 config_by_name = {
