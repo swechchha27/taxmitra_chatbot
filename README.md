@@ -127,6 +127,8 @@ Swechchha Agarwal
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/swechchha-agarwal))
 
 ![Static Badge](https://img.shields.io/badge/HackerRank-swechchha?style=for-the-badge&logo=hackerrank&logoColor=black&color=%2300EA64&link=https%3A%2F%2Fwww.hackerrank.com%2Fprofile%2Fswechchhagoyal27)
+<img alt="Static Badge" src="https://img.shields.io/badge/HackerRank-swechchha?style=for-the-badge&logo=hackerrank&logoColor=black&color=%2300EA64&link=https%3A%2F%2Fwww.hackerrank.com%2Fprofile%2Fswechchhagoyal27">
+
 
 
 
