@@ -32,7 +32,7 @@ class Config:
     def get_bot_name(self):
         """Return the bot name."""
         return self.BOT_NAME
-    
+
     def get_database_uri(self):
         """Return the database URI."""
         return self.DATABASE_URI
@@ -45,7 +45,7 @@ class DevelopmentConfig(Config):
 
     def get_bot_name(self):
         return super().get_bot_name() + " Dev"
-    
+
     def get_database_uri(self):
         return super().get_database_uri()
 
@@ -57,7 +57,7 @@ class TestingConfig(Config):
 
     def get_bot_name(self):
         return super().get_bot_name() + " Test"
-    
+
     def get_database_uri(self):
         return super().get_database_uri()
 
@@ -69,7 +69,7 @@ class ProductionConfig(Config):
 
     def get_bot_name(self):
         return super().get_bot_name() + " Prod"
-    
+
     def get_database_uri(self):
         return super().get_database_uri()
 
