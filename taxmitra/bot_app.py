@@ -6,10 +6,13 @@ This script creates a simple domain-specific chatbot named 'TaxMitra'
 that provides basic income tax guidance to Indian citizens.
 """
 
+# Standard library
+from pathlib import Path
+
+# Third Party library
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from pathlib import Path
 
 
 class ChatBotApp:
