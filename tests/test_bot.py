@@ -13,8 +13,8 @@ Classes:
 import unittest
 import os
 # import json
-from src.bot_app import ChatBotApp
-from src.config import SelectedConfig as conf
+from taxmitra.bot_app import ChatBotApp
+from taxmitra.config import SelectedConfig as conf
 
 
 class TestChatBotApp(unittest.TestCase):

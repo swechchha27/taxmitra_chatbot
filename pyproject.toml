@@ -20,8 +20,14 @@ classifiers = [
 dependencies = [
     "chatterbot==1.0.4",
     "chatterbot_corpus==1.2.2",
-    "pyyaml==6.0.1"
+    "pyyaml==5.4.1"
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+taxmitra = "taxmitra.__main__:main"
 
 [project.urls]
 "Homepage" = "https://github.com/swechchha27/taxmitra_chatbot"
