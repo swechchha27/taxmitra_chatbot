@@ -169,3 +169,8 @@ cython_debug/
 
 # VS COde
 .vscode/
+
+# SQLite database files
+*.sqlite3
+*.db
+*.db-journal
