@@ -17,6 +17,7 @@ This document outlines the future enhancements and planned features for the proj
 - [ ] Improve error handling and logging
 - [ ] Refactor codebase for better maintainability
 - [ ] Improve the base training file
+- [ ] Add test coverage and limit in GitHub Actions
 
 ## Documentation
 
