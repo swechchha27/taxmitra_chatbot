@@ -71,8 +71,9 @@ This project creates a simple domain-specific chatbot named 'TaxMitra' that prov
 ```
 taxmitra_chatbot/
 │
-├── src/                          # Folder for source code of bot
+├── taxmitra/                     # Folder for source code of bot
 │   ├── __init__.py               # Package initialization
+│   ├── __main__.py               # Main entry point to run taxmitra directly
 │   ├── bot_app.py                # script that defines ChatBotApp class
 │   └── config.py                 # script that pulls config based on environment
 ├── data/                         # Folder for keeping all training data files
@@ -91,7 +92,6 @@ taxmitra_chatbot/
 ├── .github/workflows/            # Folder for GitHub Actions workflow configuration files
 │   └── python-app.yml            # Development configuration
 ├── pyproject.toml                # Project metadata and build configuration
-├── setup.py                      # Setup script for packaging
 ├── tox.ini                       # Configuration file for Tox
 └── tests/                        # Folder for unit tests
     ├── test_bot.py               # Unit test file
