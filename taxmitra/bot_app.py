@@ -9,6 +9,7 @@ that provides basic income tax guidance to Indian citizens.
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
+from pathlib import Path
 
 
 class ChatBotApp:
@@ -17,8 +18,8 @@ class ChatBotApp:
     """
     def __init__(self,
                  name="TaxMitra",
-                 training_file="../data/training_data.txt",
-                 db_uri="sqlite:///./storage/tax_db.sqlite3"):
+                 training_file="data/training_data.txt",
+                 db_uri="storage/tax_db.sqlite3"):
         """
         Initialize the chatbot with a name and training data.
 
@@ -29,8 +30,8 @@ class ChatBotApp:
                        (default: 'sqlite:///./storage/tax_db.sqlite3')
         """
         self.name = name
-        self.training_file = training_file
-        self.database_uri = db_uri
+        self.training_file = Path(training_file).resolve()
+        self.database_uri = "sqlite:///" + str(Path.cwd() / Path(db_uri))
         self.bot = ChatBot(
             name=name,
             storage_adapter="chatterbot.storage.SQLStorageAdapter",
@@ -68,6 +69,7 @@ class ChatBotApp:
         """
         if file_path is None:
             file_path = self.training_file
+        file_path = Path(file_path).resolve()
         with open(file_path, mode="r", encoding="utf-8") as file:
             conversation = file.read().split('\n')
             self.list_trainer.train(conversation)
@@ -82,6 +84,7 @@ class ChatBotApp:
         """
         if file_path is None:
             file_path = self.training_file
+        file_path = Path(file_path).resolve()
         with open(file_path, encoding="utf-8", mode="r") as file:
             conversation = []
             for line in file.readlines():
