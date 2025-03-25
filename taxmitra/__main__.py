@@ -1,5 +1,6 @@
 """
-This module initializes and runs the ChatBotApp.
+This module initializes and runs the taxmitra module
+usinf python -m taxmitra
 
 The ChatBotApp is trained with paired data from a file and the English corpus.
 It then starts an interactive chat session with the user.
@@ -18,16 +19,6 @@ if __name__ == "__main__":
             training_file = conf.TRAINING_FILE,
             db_uri = conf.DATABASE_URI,
         )
-
-        # Example training data
-        # bot_app.train_with_list([
-        #     "Hi",
-        #     "Welcome, friend 🤗",
-        # ])
-        # bot_app.train_with_list([
-        #     "Are you a plant?",
-        #     "No, I'm the pot below the plant!",
-        # ])
 
         # Train the chatbot with data from a file
         bot_app.train_with_paired_datafile()
