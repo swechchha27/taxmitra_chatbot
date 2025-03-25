@@ -80,7 +80,6 @@ taxmitra_chatbot/
 │   └── training_chat_conversation.txt
 ├── storage/                      # Folder for storing bot's memory db (sqlite3)
 │   └── dev_db.sqlite3
-├── main.py                       # Main script to run the chatbot
 ├── requirements.txt              # Project dependencies
 ├── .env.sample                   # sample .env file for environment config setup
 ├── .gitignore                    # Git ignore file
