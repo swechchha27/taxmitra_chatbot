@@ -7,7 +7,7 @@ name = "TaxMitra_Chatbot"
 version = "0.1.0"
 description = "A simple domain-specific chatbot for income tax guidance in India."
 readme = "README.md"
-requires-python = "<=3.7"
+requires-python = "<=3.7.9"
 license = {text = "MIT"}
 authors = [
     {name = "Swechchha Agarwal", email = "swechchhagoyal27@gmail.com"}
