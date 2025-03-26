@@ -42,8 +42,12 @@ This project creates a simple domain-specific chatbot named 'TaxMitra' that prov
    ```sh
    pip install -r requirements.txt
    ```
+   OR Install the package using pip which will auto install dependencies too (Recommended)
+   ```sh
+   python -m pip install TaxMitra_Chatbot
+   ```
 
-4. **Set up environment variables**:
+5. **Set up environment variables**:
    - Create a `.env` file in the root directory of the project.
    - You can refer to the `.env.sample` file for the required environment variables.
 
@@ -54,7 +58,7 @@ This project creates a simple domain-specific chatbot named 'TaxMitra' that prov
 
 2. **Run the chatbot**:
    ```sh
-   python main.py
+   python -m taxmitra
    ```
 
 3. **Interact with the chatbot**:
